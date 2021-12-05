@@ -285,6 +285,11 @@
   color: white;
 }
 
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column-heading {
   font-size: 18px;
   line-height: 30px;
