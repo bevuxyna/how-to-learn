@@ -183,7 +183,8 @@
   line-height: 1.15;
   font-weight: bold;
   text-align: center;
-  margin: 100px auto 70px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .feynman__subtitle {
@@ -192,6 +193,7 @@
   font-weight: normal;
   text-align: center;
   margin: 0 auto;
+  padding-top: 70px;
 }
 
 .feynman__link {
@@ -209,6 +211,7 @@
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -229,12 +232,10 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  z-index: 1;
 }
 
 .table__heading_theme_dark {
   color: white;
-  z-index: 1;
 }
 
 .table__text_theme_dark {
@@ -249,6 +250,7 @@
   position: absolute;
   top: 0;
   right: -210px;
+  z-index: -1;
 }
 
 .footer {
