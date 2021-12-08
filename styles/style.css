@@ -145,6 +145,7 @@
   flex-wrap: wrap;
   margin: 0 auto 100px;
   list-style-type: none;
+  padding: 0;
 }
 
 .table__cell {
