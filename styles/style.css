@@ -1,330 +1,53 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+@import url(../blocks/page/page.css);
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  display: flex;
-  align-items: center;
-  position: relative;
-  background-color: #f2f2f2;
-}
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
 
-.logo {
-  width: 183px;
-}
+@import url(../blocks/description/description.css);
 
-.logo_place_header {
-  height: 32px;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 1;
-}
+@import url(../blocks/two-columns/two-columns.css);
+@import url(../blocks/two-columns/__brief/two-columns__brief.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
-.header__title {
-  font-size: 102px;
-  line-height: 96px;
-  font-weight: bold;
-  width: 730px;
-  margin-left: 64px;
-  margin-top: 0;
-  margin-bottom: 0;
-  z-index: 2;
-}
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
-.header__subtitle {
-  width: 388px;
-  position: absolute;
-  left: 64px;
-  bottom: 30px;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 0;
-  z-index: 2;
-}
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 
-.header__main-illustration {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 765px;
-  height: 608px;
-  z-index: 1;
-}
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
 
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  background: #2f80ed;
-  position: absolute;
-  top: 64px;
-  right: 0;
-}
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
-.description{
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.two-columns{
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-}
-
-.two-columns__brief {
-  width: 175px;
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: normal;
-  color: #2f80ed;
-  padding: 0;
-  margin: 0;
-}
-
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
-}
-
-.two-columns__paragraph {
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: normal;
-  margin-bottom: 30px;
-  margin-top: 0;
-}
-
-.two-columns__paragraph:last-child {
-  margin-bottom: 0;
-}
-
-.two-columns__span-accent {
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: bold;
-}
-
-.section-title {
-  font-size: 60px;
-  line-height: 1.15;
-  font-weight: bold;
-  text-align: center;
-  width: 60%;
-  margin: 100px auto 20px;
-}
-
-.section-subtitle {
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: normal;
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.table {
-  width: 1100px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 auto 100px;
-  list-style-type: none;
-  padding: 0;
-}
-
-.table__cell {
-  width: 250px;
-  margin-top: 60px;
-}
-
-.table__heading {
-  font-size: 24px;
-  line-height: 1.15;
-  font-weight: bold;
-  margin: 0;
-}
-
-.table__text {
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight: normal;
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
-.feynman {
-  min-height: 890px;
-  background-image:url('../images/feynman.png');
-  background-size: 867px 637px;
-  background-repeat: no-repeat;
-  background-color: #f2f2f2;
-  position: relative;
-  background-position: left bottom;
-}
-
-.feynman__title {
-  width: 648px;
-  font-size: 120px;
-  line-height: 1.15;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-.feynman__subtitle {
-  font-size: 36px;
-  line-height: 51px;
-  font-weight: normal;
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 70px;
-}
-
-.feynman__link {
-  font-size: 36px;
-  line-height: 51px;
-  font-weight: normal;
-  color: #2f80ed;
-  text-decoration: none;
-  position: absolute;
-  top: 50%;
-  right: 48px;
-}
-
-.kaufman {
-  background-color: #1f1f1f;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-
-.section-title_theme_dark {
-  color: white;
-  margin: 90px auto 20px;
-}
-
-.section-subtitle_theme_dark {
-  color: white;
-}
-
-.table_theme_dark {
-  margin: 0 auto 90px;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-.table__heading_theme_dark {
-  color: white;
-}
-
-.table__text_theme_dark {
-  color: white;
-}
-
-.kaufman__triangle {
-  width: 877px;
-  height: 877px;
-  background-image: url("../images/kaufman-triangle.svg");
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  right: -210px;
-  z-index: -1;
-}
-
-.footer {
-  min-height: 350px;
-  background-color: #1f1f1f;
-  display: flex;
-}
-
-.footer__columns {
-  width: 90%;
-  margin: 60px auto 40px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer__column_content_copyright {
-  flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.logo_place_footer {
-  height: 35px;
-}
-
-.footer__author {
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: normal;
-  color: white;
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column-heading {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: bold;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-.footer__column-links {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
-}
-
-.footer__column-link {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: normal;
-  color: white;
-  text-decoration: none;
-  display: flex;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__social-icon {
-  margin-right: 10px;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 16px;
-  height: 16px;
-}
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
