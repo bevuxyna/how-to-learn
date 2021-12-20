@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -12,7 +11,7 @@
   <header class="header">
     <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикум">
     <h1 class="header__title">Научиться учиться</h1>
-    <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#" class="header__link"> Узнать →</a></p>
+    <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#techniques" class="header__link"> Узнать →</a></p>
     <img class="header__main-illustration" src="./images/header-image.png" alt="Мальчик с собакой">
     <div class="header__square-pic rotation"></div>
   </header>
@@ -29,38 +28,38 @@
       </article>
     </section>
 
-    <section class="techniques">
+    <section class="techniques" id="techniques">
       <h2 class="section-title">Техники обучения</h2>
       <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-      <div class="cards">
-        <div class="cards__item">
+      <ul class="cards">
+        <li class="cards__item">
           <img class="cards__image" src="../images/cards-attention.png" alt="Внимание">
           <h3 class="cards__title">Два вида внимания</h3>
           <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="../images/cards-recall.png" alt="Recall">
           <h3 class="cards__title">Recall</h3>
           <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="../images/cards-interliving.png" alt="Интерливинг">
           <h3 class="cards__title">Интерливинг</h3>
           <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="../images/cards-question.png" alt="Вопросы">
           <h3 class="cards__title">Вопросы</h3>
           <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="../images/cards-competence.png" alt="Компетентности">
           <h3 class="cards__title">Иллюзия компетентности</h3>
           <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
           </p>
-        </div>
+        </li>
 
-      </div>
+      </ul>
 
     </section>
 
@@ -137,7 +136,8 @@
         <p class="khan__quote-author">Джордж Лукас</p>
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
-          <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги Салмана Хана"><a class="khan__buy-link" target="_blank" href="https://www.ozon.ru/context/detail/id/162999126/">Купить книгу →</a>
+          <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги Салмана Хана">
+          <a class="khan__buy-link" href="#">Купить книгу →</a>
         </div>
       </div>
     </section>
@@ -200,7 +200,6 @@
       <a href="https://strelka.com/ru" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип STRELKA"></a>
       <a href="https://polka.academy" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип ПОЛКА"></a>
     </div>
-
   </section>
 
   <footer class="footer">
@@ -220,9 +219,9 @@
       <div class="footer__column footer__column_content_social">
         <h2 class="footer__column-heading">Соцсети</h2>
         <nav class="footer__column-links">
-          <a href="#" class="footer__column-link"><img src="./images/facebook_color_white.svg" class="footer__social-icon" alt="Логотип Facebook">Facebook</a>
-          <a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" class="footer__social-icon" alt="Логотип ВКонтакте">ВКонтакте</a>
-          <a href="#" class="footer__column-link"><img src="./images/instagram_color_white.svg" class="footer__social-icon" alt="Логотип Instagram">Instagram</a>
+          <a class="footer__column-link" href="#"><img src="./images/facebook_color_white.svg" class="footer__social-icon" alt="Логотип Facebook">Facebook</a>
+          <a class="footer__column-link" href="#"><img src="./images/vk_color_white.svg" class="footer__social-icon" alt="Логотип ВКонтакте">ВКонтакте</a>
+          <a class="footer__column-link" href="#"><img src="./images/instagram_color_white.svg" class="footer__social-icon" alt="Логотип Instagram">Instagram</a>
         </nav>
       </div>
     </div>

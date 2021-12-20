@@ -5,4 +5,10 @@
   color: white;
   text-decoration: none;
   display: flex;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
