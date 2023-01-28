@@ -22,8 +22,8 @@ https://bevuxyna.github.io/how-to-learn/
 
 ## Guidelines for the project
 
-[Чек лист](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist-2.pdf) для проверки работы.
+[Чек лист](https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist-2.pdf) для проверки работы.
 
-[Бриф №1](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf) с описаниями и иллюстрациями
+[Бриф №1](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf) с описаниями и иллюстрациями
 
-[Бриф №2](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf) с описаниями и иллюстрациями
+[Бриф №2](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf) с описаниями и иллюстрациями
